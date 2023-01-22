@@ -1,0 +1,41 @@
+.card {
+	position: relative;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 357px;
+	cursor: pointer;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+
+	.sneaker_img {
+		object-fit: contain;
+		height: 247px;
+	}
+
+	.sneaker_name {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.sneaker_rating {
+		display: flex;
+		margin-top: 10px;
+		img {
+			width: 20px;
+		}
+	}
+
+	.sneaker_price {
+		margin-top: 5px;
+	}
+
+	.addIcon {
+		position: absolute;
+		left: 60px;
+	}
+
+}

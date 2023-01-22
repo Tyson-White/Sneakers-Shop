@@ -1,0 +1,26 @@
+.rightMenu {
+	transition: 0.5s;
+	width: 400px;
+	height: 100vh;
+	position: fixed;
+	background-color: rgba(218, 218, 218, 0.808);
+	top: 0;
+	right: -100%;
+	z-index: 100;
+
+	.close {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		cursor: pointer;
+		
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+	
+}
+
+.show {
+	right: 0;
+}

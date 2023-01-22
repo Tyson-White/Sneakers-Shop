@@ -1,0 +1,19 @@
+.collection {
+	text-align: center;
+	margin: 20px 0;
+	width: 100%;
+
+	.title {
+		font-size: 40px;
+		font-weight: 700;
+		color: rgb(194, 86, 14);
+	}
+
+	.allSneakers {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 20px 0;
+		width: 2000px;
+	}
+
+}
